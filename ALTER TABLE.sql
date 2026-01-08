@@ -1,0 +1,1 @@
+ALTER TABLE Ogrenci2 ALTER COLUMN  DogumTarihi date NOT NULL

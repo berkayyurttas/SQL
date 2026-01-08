@@ -1,0 +1,5 @@
+--SELECT*FROM Ogrenci
+
+SELECT  Ogrenci.OgrenciNo, Ogrenci.Ad, Ogrenci.Soyad, Ogrenci.KayitTarihi,
+OgrenciAdres.AdresDetay, OgrenciAdres.Sehir FROM Ogrenci, OgrenciAdres
+WHERE Ogrenci.OgrenciNo = OgrenciAdres.OgrenciNo
